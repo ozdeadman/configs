@@ -1,3 +1,5 @@
+" To prevent vim from spewing errors when editing certain files 
+set nocp
 " Turn syntax highlighting on
 syntax on
 " Supports copy/paste functionality from external programs
@@ -8,6 +10,9 @@ set number
 set tabstop=4
 " Change the indentation size from 8 (default) to 4
 set shiftwidth=4
+set softtabstop=4
+" Use tabs, not spaces
+set expandtab
 
 " Remove arrow (cursor) keys to be more efficient at vim
 for prefix in ['i', 'n', 'v']
